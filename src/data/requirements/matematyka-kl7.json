@@ -1,0 +1,524 @@
+[
+  {
+    "id": "mat-7-01",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza procent danej liczby.",
+    "tags": [
+      "procenty",
+      "procent-z-liczby",
+      "obliczenia-procentowe",
+      "zastosowania-procentów",
+      "zadania-tekstwowe-procenty"
+    ]
+  },
+  {
+    "id": "mat-7-02",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza, o ile procent jedna liczba jest większa/mniejsza od drugiej.",
+    "tags": [
+      "procenty",
+      "różnica-w-procentach",
+      "ile-procent-więcej",
+      "ile-procent-mniej",
+      "porównywanie-procentowe",
+      "zmiana-procentowa"
+    ]
+  },
+  {
+    "id": "mat-7-03",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozwiązuje zadania z podwyżką i obniżką procentową.",
+    "tags": [
+      "procenty",
+      "podwyżka-procentowa",
+      "obniżka-procentowa",
+      "rabaty-i-promocje",
+      "cena-po-obniżce",
+      "cena-po-podwyżce",
+      "zmiana-procentowa"
+    ]
+  },
+  {
+    "id": "mat-7-04",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń dodaje i odejmuje ułamki zwykłe o wspólnym mianowniku.",
+    "tags": [
+      "ułamki-zwykłe",
+      "wspólny-mianownik",
+      "dodawanie-ułamków",
+      "odejmowanie-ułamków",
+      "arytmetyka-ułamki"
+    ]
+  },
+  {
+    "id": "mat-7-05",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń zamienia ułamki zwykłe na dziesiętne i odwrotnie; porównuje ułamki.",
+    "tags": [
+      "ułamki",
+      "ułamki-na-dziesiętne",
+      "dziesiętne-na-ułamki",
+      "porównywanie-ułamków",
+      "liczby-wymierne",
+      "wartości-przybliżone"
+    ]
+  },
+  {
+    "id": "mat-7-06",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń stosuje wartość bezwzględną i oblicza odległość liczb na osi.",
+    "tags": [
+      "wartość-bezwzględna",
+      "moduł-liczby",
+      "oś-liczbowa",
+      "odległość-na-osi",
+      "liczby-rzeczywiste-podstawy"
+    ]
+  },
+  {
+    "id": "mat-7-07",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozwiązuje równania liniowe z jedną niewiadomą i sprawdza poprawność rozwiązań.",
+    "tags": [
+      "równania-liniowe",
+      "jedna-niewiadoma",
+      "rozwiązywanie-równań",
+      "sprawdzanie-rozwiązania",
+      "algebra-podstawy"
+    ]
+  },
+  {
+    "id": "mat-7-10",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń wykonuje działania na potęgach z wykładnikiem naturalnym.",
+    "tags": [
+      "potęgi",
+      "wykładnik-naturalny",
+      "własności-potęg",
+      "iloczyn-potęg",
+      "iloraz-potęg",
+      "potęga-potęgi",
+      "potęgowanie-iloczynu",
+      "potęgowanie-ilorazu"
+    ]
+  },
+  {
+    "id": "mat-7-11",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza pierwiastki drugiego stopnia liczb nieujemnych i szacuje ich wartości.",
+    "tags": [
+      "pierwiastki-kwadratowe",
+      "pierwiastki",
+      "przybliżenia-pierwiastków",
+      "szacowanie",
+      "liczby-nieujemne"
+    ]
+  },
+  {
+    "id": "mat-7-12",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń stosuje twierdzenie Pitagorasa w obliczeniach długości w trójkącie prostokątnym.",
+    "tags": [
+      "twierdzenie-pitagorasa",
+      "trójkąt-prostokątny",
+      "długości-boków",
+      "przekątna",
+      "zastosowanie-pitagorasa"
+    ]
+  },
+  {
+    "id": "mat-7-13",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza pola i obwody trójkąta, prostokąta, równoległoboku i trapezu.",
+    "tags": [
+      "pola-figur",
+      "obwody-figur",
+      "trójkąt",
+      "prostokąt",
+      "równoległobok",
+      "trapez",
+      "wzory-na-pole",
+      "wzory-na-obwód"
+    ]
+  },
+  {
+    "id": "mat-7-18",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń odczytuje i interpretuje dane z tabel i wykresów.",
+    "tags": [
+      "statystyka",
+      "tabele",
+      "wykresy",
+      "wykres-kolumnowy",
+      "wykres-liniowy",
+      "wykres-kołowy",
+      "odczytywanie-danych",
+      "interpretacja-danych"
+    ]
+  },
+  {
+    "id": "mat-7-19",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozpoznaje, zapisuje i porównuje liczby całkowite; zaznacza je na osi liczbowej.",
+    "tags": [
+      "liczby-całkowite",
+      "liczby-ujemne",
+      "porównywanie-liczb",
+      "oś-liczbowa",
+      "wartość-bezwzględna-podstawy"
+    ]
+  },
+
+  {
+    "id": "mat-7-20",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń wykonuje działania na liczbach wymiernych dodatnich i ujemnych (dodawanie, odejmowanie, mnożenie, dzielenie).",
+    "tags": [
+      "liczby-wymierne",
+      "liczby-ujemne",
+      "działania-na-liczbach",
+      "kolejność-działań",
+      "arytmetyka-podstawy"
+    ]
+  },
+  {
+    "id": "mat-7-21",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń stosuje kolejność wykonywania działań i zapisuje wyrażenia arytmetyczne.",
+    "tags": [
+      "kolejność-działań",
+      "nawiasy",
+      "wyrażenia-arytmetyczne",
+      "upraszczanie-wyrażeń"
+    ]
+  },
+  {
+    "id": "mat-7-22",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń zaokrągla liczby i szacuje wyniki obliczeń.",
+    "tags": [
+      "zaokrąglanie",
+      "szacowanie",
+      "wartości-przybliżone",
+      "błąd-zaokrąglenia"
+    ]
+  },
+  {
+    "id": "mat-7-23",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń dodaje, odejmuje, mnoży i dzieli ułamki zwykłe o różnych mianownikach (sprowadzanie do wspólnego mianownika).",
+    "tags": [
+      "ułamki-zwykłe",
+      "różne-mianowniki",
+      "sprowadzanie-do-wspólnego-mianownika",
+      "mnożenie-ułamków",
+      "dzielenie-ułamków"
+    ]
+  },
+  {
+    "id": "mat-7-24",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozpoznaje i stosuje proporcjonalność prostą (równanie y = kx, tabela, wykres).",
+    "tags": [
+      "proporcjonalność-prosta",
+      "y=kx",
+      "tabela-wartości",
+      "wykres-proporcjonalności",
+      "interpretacja-wykresu"
+    ]
+  },
+  {
+    "id": "mat-7-25",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozwiązuje zadania typu prędkość–droga–czas jako zastosowanie proporcjonalności prostej.",
+    "tags": [
+      "proporcjonalność-prosta",
+      "prędkość-droga-czas",
+      "jednostki-ruchu",
+      "zadania-tekstowe-ruch"
+    ]
+  },
+  {
+    "id": "mat-7-26",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza, jaki procent stanowi jedna liczba drugiej (jaki to procent?).",
+    "tags": [
+      "procenty",
+      "jaki-to-procent",
+      "porównywanie-procentowe",
+      "obliczenia-procentowe"
+    ]
+  },
+  {
+    "id": "mat-7-27",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza liczbę, gdy dany jest jej procent.",
+    "tags": [
+      "procenty",
+      "liczba-z-danego-procentu",
+      "odwracanie-procentów",
+      "obliczenia-procentowe"
+    ]
+  },
+  {
+    "id": "mat-7-28",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń interpretuje i stosuje punkty procentowe.",
+    "tags": [
+      "procenty",
+      "punkty-procentowe",
+      "zmiana-w-punktach-procentowych",
+      "statystyka-procenty"
+    ]
+  },
+  {
+    "id": "mat-7-29",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń tworzy i interpretuje diagramy procentowe.",
+    "tags": [
+      "procenty",
+      "diagramy-procentowe",
+      "wykres-kołowy",
+      "wykres-pasowy"
+    ]
+  },
+  {
+    "id": "mat-7-30",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza wartości liczbowe wyrażeń algebraicznych.",
+    "tags": [
+      "wyrażenia-algebraiczne",
+      "podstawianie-do-wzorów",
+      "obliczanie-wartości-wyrażeń",
+      "algebra-podstawy"
+    ]
+  },
+  {
+    "id": "mat-7-31",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń dodaje i odejmuje sumy algebraiczne oraz mnoży jednomian przez sumę (rozdzielność).",
+    "tags": [
+      "wyrażenia-algebraiczne",
+      "suma-algebraiczna",
+      "mnożenie-jednomianu-przez-sumę",
+      "rozdzielność-mnożenia"
+    ]
+  },
+  {
+    "id": "mat-7-32",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń przekształca proste wzory (np. v = s/t) i wyznacza wskazaną wielkość.",
+    "tags": [
+      "przekształcanie-wzorów",
+      "wyznaczanie-wielkości",
+      "równości-matematyczne",
+      "fizyka-w-matematyce"
+    ]
+  },
+  {
+    "id": "mat-7-33",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozwiązuje równania liniowe z nawiasami i ułamkami.",
+    "tags": [
+      "równania-liniowe",
+      "nawiasy",
+      "ułamki-w-równaniach",
+      "metody-rozwiązywania"
+    ]
+  },
+  {
+    "id": "mat-7-34",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń układa i rozwiązuje równania do zadań tekstowych (w tym procentowych).",
+    "tags": [
+      "równania-z-tekstu",
+      "modelowanie-matematyczne",
+      "zadania-procentowe",
+      "algebra-zastosowania"
+    ]
+  },
+  {
+    "id": "mat-7-35",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń stosuje prawa działań na potęgach (iloczyn/iloraz potęg, potęga potęgi, potęgowanie iloczynu i ilorazu).",
+    "tags": [
+      "potęgi",
+      "prawa-potęgowe",
+      "iloczyn-potęg",
+      "iloraz-potęg",
+      "potęga-potęgi",
+      "potęgowanie-iloczynu",
+      "potęgowanie-ilorazu"
+    ]
+  },
+  {
+    "id": "mat-7-36",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń posługuje się notacją wykładniczą (zapis naukowy liczb).",
+    "tags": [
+      "notacja-wykładnicza",
+      "zapis-naukowy",
+      "potęgi-dziesiątki",
+      "nauka-o-wielkościach"
+    ]
+  },
+  {
+    "id": "mat-7-37",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozróżnia pierwiastki wymierne i niewymierne; szacuje i zaznacza wartości na osi liczbowej.",
+    "tags": [
+      "pierwiastki",
+      "pierwiastki-niewymierne",
+      "pierwiastki-wymierne",
+      "szacowanie-pierwiastków",
+      "oś-liczbowa"
+    ]
+  },
+  {
+    "id": "mat-7-38",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń wykonuje działania na pierwiastkach (mnożenie, dzielenie, wyłączanie liczby przed znak pierwiastka/włączanie pod znak).",
+    "tags": [
+      "działania-na-pierwiastkach",
+      "upraszczanie-pierwiastków",
+      "wyłączanie-przed-pierwiastek",
+      "włączanie-pod-pierwiastek"
+    ]
+  },
+  {
+    "id": "mat-7-39",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń usuwa niewymierność z mianownika w prostych przypadkach.",
+    "tags": [
+      "pierwiastki-niewymierne",
+      "usuwanie-niewymierności-z-mianownika",
+      "racionalizacja-mianownika",
+      "upraszczanie-wyrażeń"
+    ]
+  },
+  {
+    "id": "mat-7-40",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza miary kątów (przyległe, wierzchołkowe, odpowiadające, naprzemianległe) przy prostych równoległych.",
+    "tags": [
+      "kąty",
+      "proste-równoległe",
+      "kąty-przyległe",
+      "kąty-wierzchołkowe",
+      "kąty-odpowiadające",
+      "kąty-naprzemianległe"
+    ]
+  },
+  {
+    "id": "mat-7-41",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozpoznaje rodzaje trójkątów, zna sumę kątów trójkąta i stosuje cechy przystawania.",
+    "tags": [
+      "trójkąty",
+      "cechy-przystawania",
+      "suma-kątów-trójkąta",
+      "geometria-euklidesowa"
+    ]
+  },
+  {
+    "id": "mat-7-42",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozpoznaje i stosuje własności czworokątów (równoległobok, romb, kwadrat, trapez) w obliczeniach pól/obwodów.",
+    "tags": [
+      "czworokąty",
+      "równoległobok",
+      "romb",
+      "kwadrat",
+      "trapez",
+      "własności-figur",
+      "pola-figur",
+      "obwody-figur"
+    ]
+  },
+  {
+    "id": "mat-7-43",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń odczytuje i zaznacza punkty w układzie współrzędnych.",
+    "tags": [
+      "układ-współrzędnych",
+      "współrzędne-punktu",
+      "oś-x-oś-y",
+      "geometria-analityczna-podstawy"
+    ]
+  },
+  {
+    "id": "mat-7-44",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń rozpoznaje graniastosłupy, rysuje ich siatki oraz oblicza pole powierzchni i objętość (w tym prostopadłościanu).",
+    "tags": [
+      "graniastosłupy",
+      "siatki-figur-przestrzennych",
+      "pole-powierzchni",
+      "objętość",
+      "prostopadłościan"
+    ]
+  },
+  {
+    "id": "mat-7-45",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń oblicza średnią arytmetyczną i opracowuje zebrane dane (tabele, wykresy).",
+    "tags": [
+      "statystyka",
+      "średnia-arytmetyczna",
+      "opracowanie-danych",
+      "tabele",
+      "wykresy"
+    ]
+  },
+  {
+    "id": "mat-7-46",
+    "subject": "matematyka",
+    "grade": 7,
+    "outcome": "Uczeń opisuje proste doświadczenia losowe i szacuje prawdopodobieństwo empiryczne.",
+    "tags": [
+      "prawdopodobieństwo",
+      "doświadczenia-losowe",
+      "częstość-empiryczna",
+      "statystyka-podstawy"
+    ]
+  }
+]

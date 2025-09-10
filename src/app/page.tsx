@@ -1,103 +1,257 @@
-import Image from "next/image";
+"use client";
+
+import { useRef, useState } from "react";
+import {
+  Box,
+  Button,
+  Container,
+  Input,
+  Stack,
+  Text,
+  Heading,
+  chakra,
+} from "@chakra-ui/react";
+import ReactMarkdown from "react-markdown";
+
+type Result = { ok: boolean; content?: string; message?: string };
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const [subject, setSubject] = useState("matematyka");
+  const [grade, setGrade] = useState("7");
+  const [topic, setTopic] = useState("");
+  const [minutes, setMinutes] = useState("45");
+  const [result, setResult] = useState<Result | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [streaming, setStreaming] = useState(false);
+  const abortRef = useRef<AbortController | null>(null);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+  async function handleGenerate() {
+    setLoading(true);
+    setResult(null);
+
+    try {
+      const res = await fetch("/api/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          subject,
+          grade: parseInt(grade, 10),
+          topic,
+          minutes: parseInt(minutes, 10),
+          conditions: [],
+        }),
+      });
+
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(`HTTP ${res.status}: ${text}`);
+      }
+
+      const data: Result = await res.json();
+      setResult(data);
+    } catch (e) {
+      setResult({ ok: false, message: "API request failed" });
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function handleGenerateStream() {
+    setStreaming(true);
+    setResult({ ok: true, content: "" });
+    const controller = new AbortController();
+    abortRef.current = controller;
+
+    try {
+      const res = await fetch("/api/generate/stream", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
+        body: JSON.stringify({
+          subject,
+          grade: parseInt(grade, 10),
+          topic,
+          minutes: parseInt(minutes, 10),
+          conditions: [],
+        }),
+      });
+
+      if (!res.ok || !res.body) {
+        const text = await res.text();
+        throw new Error(text || `HTTP ${res.status}`);
+      }
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let full = "";
+
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        full += decoder.decode(value, { stream: true });
+        setResult({ ok: true, content: full });
+      }
+    } catch (e: any) {
+      if (e?.name === "AbortError") {
+        setResult((prev) => prev ?? { ok: false, message: "Przerwano." });
+      } else {
+        setResult({ ok: false, message: e?.message ?? "Stream failed" });
+      }
+    } finally {
+      setStreaming(false);
+      abortRef.current = null;
+    }
+  }
+
+  function cancelStream() {
+    abortRef.current?.abort();
+  }
+
+  return (
+    <Container py={10}>
+      <Stack gap={6}>
+        <Heading size="lg">Asystent Lekcji MEN</Heading>
+
+        <Stack gap={4}>
+          <Box>
+            <Text mb={2}>Przedmiot</Text>
+            <select
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
+              style={{ width: "100%", padding: 8, borderRadius: 8 }}
+            >
+              <option value="matematyka">Matematyka</option>
+              <option value="fizyka">Fizyka</option>
+            </select>
+          </Box>
+
+          <Box>
+            <Text mb={2}>Klasa</Text>
+            <select
+              value={grade}
+              onChange={(e) => setGrade(e.target.value)}
+              style={{ width: "100%", padding: 8, borderRadius: 8 }}
+            >
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </Box>
+
+          <Box>
+            <Text mb={2}>Temat lekcji</Text>
+            <Input
+              value={topic}
+              onChange={(e) => setTopic(e.target.value)}
+              placeholder="Np. Potęgi i pierwiastki"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+          </Box>
+
+          <Box>
+            <Text mb={2}>Czas (minuty)</Text>
+            <Input
+              type="number"
+              value={minutes}
+              onChange={(e) => setMinutes(e.target.value)}
+            />
+          </Box>
+
+          <Stack direction={{ base: "column", md: "row" }} gap={3}>
+            <Button
+              loading={loading}
+              loadingText="Generuję..."
+              onClick={handleGenerate}
+              colorPalette="blue"
+            >
+              Generuj (bez streamu)
+            </Button>
+
+            <Button
+              loading={streaming}
+              loadingText="Strumieniuję..."
+              onClick={handleGenerateStream}
+              colorPalette="green"
+            >
+              Generuj (stream)
+            </Button>
+
+            {streaming && (
+              <Button variant="outline" onClick={cancelStream}>
+                Przerwij
+              </Button>
+            )}
+          </Stack>
+        </Stack>
+
+        {result && (
+          <Box borderWidth="1px" borderRadius="xl" p={4}>
+            {result.ok ? (
+              <Box
+                p={4}
+                borderWidth="1px"
+                borderRadius="lg"
+                bg="gray.50"
+                css={{
+                  "& h1": {
+                    fontSize: "var(--chakra-font-sizes-2xl)",
+                    fontWeight: 700,
+                    marginBottom: "0.75rem",
+                  },
+                  "& h2": {
+                    fontSize: "var(--chakra-font-sizes-xl)",
+                    fontWeight: 600,
+                    marginTop: "1rem",
+                    marginBottom: "0.5rem",
+                  },
+                  "& h3": {
+                    fontSize: "var(--chakra-font-sizes-lg)",
+                    fontWeight: 600,
+                    marginTop: "0.75rem",
+                    marginBottom: "0.5rem",
+                  },
+                  "& p": { marginBottom: "0.5rem" },
+                  "& ul": {
+                    paddingLeft: "1.5rem",
+                    marginBottom: "0.5rem",
+                    listStyle: "disc",
+                  },
+                  "& ol": {
+                    paddingLeft: "1.5rem",
+                    marginBottom: "0.5rem",
+                    listStyle: "decimal",
+                  },
+                  "& li": { marginBottom: "0.25rem" },
+                  "& strong": { fontWeight: 700 },
+                }}
+              >
+                <ReactMarkdown
+                  components={{
+                    h1: (props) => (
+                      <Heading as="h1" size="xl" mb={3} {...props} />
+                    ),
+                    h2: (props) => (
+                      <Heading as="h2" size="lg" mt={4} mb={2} {...props} />
+                    ),
+                    h3: (props) => (
+                      <Heading as="h3" size="md" mt={3} mb={2} {...props} />
+                    ),
+                    p: (props) => <Text as="p" mb={2} {...props} />,
+                    ul: (props) => <ul {...props} />,
+                    ol: (props) => <ol {...props} />,
+                    li: (props) => <li {...props} />,
+                    strong: (props) => (
+                      <chakra.strong fontWeight="bold" {...props} />
+                    ),
+                  }}
+                >
+                  {result.content ?? ""}
+                </ReactMarkdown>
+              </Box>
+            ) : (
+              <Box>{result.message}</Box>
+            )}
+          </Box>
+        )}
+      </Stack>
+    </Container>
   );
 }
