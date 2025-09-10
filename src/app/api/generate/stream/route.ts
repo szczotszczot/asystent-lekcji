@@ -2,7 +2,7 @@ import OpenAI from "openai";
 import { z } from "zod";
 import { matchRequirements } from "@/lib/matchRequirements";
 
-export const runtime = "nodejs"; // streaming w Node
+export const runtime = "nodejs";
 
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -19,7 +19,6 @@ export async function POST(req: Request) {
   const json = await req.json();
   const body = BodySchema.parse(json);
 
-  // TWARDY filtr: bez dopasowań MEN nie generujemy
   const matched = matchRequirements(
     body.subject,
     body.grade,

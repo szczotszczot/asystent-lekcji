@@ -49,8 +49,12 @@ export default function Home() {
 
       const data: Result = await res.json();
       setResult(data);
-    } catch (e) {
-      setResult({ ok: false, message: "API request failed" });
+    } catch (e: unknown) {
+      if (e instanceof Error) {
+        setResult({ ok: false, message: e.message });
+      } else {
+        setResult({ ok: false, message: "API request failed" });
+      }
     } finally {
       setLoading(false);
     }
@@ -91,11 +95,13 @@ export default function Home() {
         full += decoder.decode(value, { stream: true });
         setResult({ ok: true, content: full });
       }
-    } catch (e: any) {
-      if (e?.name === "AbortError") {
+    } catch (e: unknown) {
+      if (e instanceof DOMException && e.name === "AbortError") {
         setResult((prev) => prev ?? { ok: false, message: "Przerwano." });
-      } else {
+      } else if (e instanceof Error) {
         setResult({ ok: false, message: e?.message ?? "Stream failed" });
+      } else {
+        setResult({ ok: false, message: "Stream failed (unknown error)" });
       }
     } finally {
       setStreaming(false);
