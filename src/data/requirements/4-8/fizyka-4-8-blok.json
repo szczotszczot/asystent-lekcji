@@ -1,0 +1,430 @@
+[
+  {
+    "id": "fiz-4-8-1",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń planuje i przeprowadza proste doświadczenia fizyczne oraz formułuje wnioski.",
+    "tags": [
+      "doświadczenia",
+      "metodyka-naukowa"
+    ]
+  },
+  {
+    "id": "fiz-4-8-2",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń dokonuje pomiarów wielkości fizycznych z użyciem przyrządów i zapisuje wyniki z jednostkami.",
+    "tags": [
+      "pomiar",
+      "wielkości-fizyczne",
+      "jednostki"
+    ]
+  },
+  {
+    "id": "fiz-4-8-3",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń analizuje dane pomiarowe, oblicza średnie i ocenia niepewność pomiaru.",
+    "tags": [
+      "analiza-danych",
+      "niepewność-pomiaru",
+      "statystyka-opisowa"
+    ]
+  },
+  {
+    "id": "fiz-4-8-4",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje proporcjonalność prostą i odwrotną w danych eksperymentalnych.",
+    "tags": [
+      "proporcjonalność",
+      "analiza-danych"
+    ]
+  },
+  {
+    "id": "fiz-4-8-5",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje zasady bezpieczeństwa podczas wykonywania doświadczeń.",
+    "tags": [
+      "bhp",
+      "bezpieczeństwo-w-laboratorium"
+    ]
+  },
+  {
+    "id": "fiz-4-8-6",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje ruch prostoliniowy, rozróżnia ruch jednostajny i przyspieszony.",
+    "tags": [
+      "ruch",
+      "ruch-jednostajny",
+      "ruch-przyspieszony"
+    ]
+  },
+  {
+    "id": "fiz-4-8-7",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza prędkość, drogę i czas ruchu prostoliniowego.",
+    "tags": [
+      "prędkość",
+      "droga",
+      "czas",
+      "ruch-prostoliniowy"
+    ]
+  },
+  {
+    "id": "fiz-4-8-8",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń przedstawia ruch za pomocą wykresów (s-t, v-t).",
+    "tags": [
+      "wykresy-ruchu",
+      "analiza-danych"
+    ]
+  },
+  {
+    "id": "fiz-4-8-9",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje i nazywa siły działające na ciało; przedstawia je za pomocą wektorów.",
+    "tags": [
+      "siły",
+      "wektory",
+      "dynamika"
+    ]
+  },
+  {
+    "id": "fiz-4-8-10",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje drugą zasadę dynamiki Newtona w prostych sytuacjach.",
+    "tags": [
+      "zasady-newtona",
+      "dynamika"
+    ]
+  },
+  {
+    "id": "fiz-4-8-11",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje tarcie i jego skutki w ruchu ciał.",
+    "tags": [
+      "tarcie",
+      "siły-oporu"
+    ]
+  },
+  {
+    "id": "fiz-4-8-12",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza pracę i moc w prostych przykładach.",
+    "tags": [
+      "praca",
+      "moc",
+      "energia"
+    ]
+  },
+  {
+    "id": "fiz-4-8-13",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje i oblicza energię kinetyczną i potencjalną grawitacji.",
+    "tags": [
+      "energia-kinetyczna",
+      "energia-potencjalna"
+    ]
+  },
+  {
+    "id": "fiz-4-8-14",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje zasadę zachowania energii mechanicznej w prostych sytuacjach.",
+    "tags": [
+      "zasada-zachowania-energii",
+      "energia-mechaniczna"
+    ]
+  },
+  {
+    "id": "fiz-4-8-15",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń mierzy temperaturę, zna skale Celsjusza i Kelvina.",
+    "tags": [
+      "temperatura",
+      "skale-temperatur"
+    ]
+  },
+  {
+    "id": "fiz-4-8-16",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje zjawisko przewodnictwa cieplnego, konwekcji i promieniowania cieplnego.",
+    "tags": [
+      "przewodnictwo",
+      "konwekcja",
+      "promieniowanie-cieplne"
+    ]
+  },
+  {
+    "id": "fiz-4-8-17",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza ciepło pobrane lub oddane przez ciało (Q = c·m·ΔT).",
+    "tags": [
+      "ciepło",
+      "ciepło-właściwe"
+    ]
+  },
+  {
+    "id": "fiz-4-8-18",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje zmiany stanów skupienia i związane z tym zjawiska cieplne.",
+    "tags": [
+      "stany-skupienia",
+      "topnienie",
+      "parowanie",
+      "skraplanie",
+      "krzepnięcie"
+    ]
+  },
+  {
+    "id": "fiz-4-8-19",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń mierzy masę i objętość, oblicza gęstość ciał stałych i cieczy.",
+    "tags": [
+      "masa",
+      "objętość",
+      "gęstość"
+    ]
+  },
+  {
+    "id": "fiz-4-8-20",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza ciśnienie wywierane na podłoże przez ciało.",
+    "tags": [
+      "ciśnienie",
+      "siła",
+      "pole-powierzchni"
+    ]
+  },
+  {
+    "id": "fiz-4-8-21",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje prawo Pascala i prawo Archimedesa w prostych doświadczeniach.",
+    "tags": [
+      "prawo-pascala",
+      "prawo-archimedesa",
+      "siła-wyporu"
+    ]
+  },
+  {
+    "id": "fiz-4-8-22",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje napięcie powierzchniowe i jego skutki.",
+    "tags": [
+      "napięcie-powierzchniowe",
+      "właściwości-cieczy"
+    ]
+  },
+  {
+    "id": "fiz-4-8-23",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje elektryzowanie ciał przez tarcie, dotyk i indukcję.",
+    "tags": [
+      "elektryzowanie",
+      "ładunek-elektryczny"
+    ]
+  },
+  {
+    "id": "fiz-4-8-24",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń przedstawia budowę prostego obwodu elektrycznego; zna symbole elementów.",
+    "tags": [
+      "obwody-elektryczne",
+      "symbole-elektryczne"
+    ]
+  },
+  {
+    "id": "fiz-4-8-25",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń definiuje natężenie prądu, napięcie i opór elektryczny; podaje jednostki.",
+    "tags": [
+      "natężenie",
+      "napięcie",
+      "opór"
+    ]
+  },
+  {
+    "id": "fiz-4-8-26",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje prawo Ohma w obliczeniach.",
+    "tags": [
+      "prawo-ohma",
+      "obwody-elektryczne"
+    ]
+  },
+  {
+    "id": "fiz-4-8-27",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza pracę i moc prądu elektrycznego.",
+    "tags": [
+      "praca-prądu",
+      "moc-prądu",
+      "energia-elektryczna"
+    ]
+  },
+  {
+    "id": "fiz-4-8-28",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje zasady bezpieczeństwa podczas korzystania z urządzeń elektrycznych i instalacji domowej.",
+    "tags": [
+      "bhp",
+      "instalacje-elektryczne"
+    ]
+  },
+  {
+    "id": "fiz-4-8-29",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje oddziaływanie magnesów i igły magnetycznej.",
+    "tags": [
+      "magnesy",
+      "pole-magnetyczne"
+    ]
+  },
+  {
+    "id": "fiz-4-8-30",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje działanie elektromagnesu i jego zastosowania.",
+    "tags": [
+      "elektromagnes",
+      "pole-magnetyczne"
+    ]
+  },
+  {
+    "id": "fiz-4-8-31",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń przedstawia zasadę działania prostego silnika elektrycznego.",
+    "tags": [
+      "silnik-elektryczny",
+      "elektromagnes"
+    ]
+  },
+  {
+    "id": "fiz-4-8-32",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje ruch drgający na przykładzie wahadła i sprężyny.",
+    "tags": [
+      "ruch-drgający",
+      "wahadło",
+      "sprężyna"
+    ]
+  },
+  {
+    "id": "fiz-4-8-33",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje fale mechaniczne i ich cechy (amplituda, długość fali, częstotliwość, okres).",
+    "tags": [
+      "fale-mechaniczne",
+      "częstotliwość",
+      "amplituda",
+      "długość-fali",
+      "okres"
+    ]
+  },
+  {
+    "id": "fiz-4-8-34",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje dźwięk jako falę i rozróżnia infradźwięki i ultradźwięki.",
+    "tags": [
+      "dźwięk",
+      "fale-mechaniczne",
+      "infradźwięki",
+      "ultradźwięki"
+    ]
+  },
+  {
+    "id": "fiz-4-8-35",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje prostoliniowe rozchodzenie się światła i zjawisko cienia.",
+    "tags": [
+      "światło",
+      "cień",
+      "optyka"
+    ]
+  },
+  {
+    "id": "fiz-4-8-36",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje i rysuje odbicie światła; stosuje prawo odbicia.",
+    "tags": [
+      "odbicie-światła",
+      "prawo-odbicia",
+      "optyka"
+    ]
+  },
+  {
+    "id": "fiz-4-8-37",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje załamanie światła; zna pojęcie kąta granicznego i całkowitego wewnętrznego odbicia.",
+    "tags": [
+      "załamanie-światła",
+      "kąt-graniczny",
+      "całkowite-odbicie"
+    ]
+  },
+  {
+    "id": "fiz-4-8-38",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje soczewki skupiające i rozpraszające; opisuje obrazy tworzone w soczewkach.",
+    "tags": [
+      "soczewki",
+      "obrazy",
+      "optyka"
+    ]
+  },
+  {
+    "id": "fiz-4-8-39",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń zna zastosowania zwierciadeł i soczewek w przyrządach optycznych.",
+    "tags": [
+      "zwierciadła",
+      "soczewki",
+      "przyrządy-optyczne"
+    ]
+  },
+  {
+    "id": "fiz-4-8-40",
+    "subject": "fizyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje światło białe jako mieszaninę barw; rozszczepienie światła w pryzmacie.",
+    "tags": [
+      "światło-białe",
+      "barwy",
+      "pryzmat"
+    ]
+  }
+]

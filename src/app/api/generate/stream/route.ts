@@ -1,5 +1,6 @@
 import OpenAI from "openai";
 import { z } from "zod";
+import { loadRequirements } from "@/lib/loadRequirements";
 import { matchRequirements } from "@/lib/matchRequirements";
 
 export const runtime = "nodejs";
@@ -19,7 +20,12 @@ export async function POST(req: Request) {
   const json = await req.json();
   const body = BodySchema.parse(json);
 
+  const requirements = await loadRequirements(body.subject, body.grade);
+
+  console.log("SUBJECT:", body.subject, "GRADE:", body.grade);
+
   const matched = matchRequirements(
+    requirements,
     body.subject,
     body.grade,
     body.topic,
@@ -53,7 +59,7 @@ Zwróć sekcje:
 ## Powiązane wymagania: ${ids}
 `.trim();
 
-  // OpenAI stream
+  // 3. Create OpenAI stream
   const aiStream = await client.chat.completions.create({
     model: "gpt-4o-mini",
     temperature: 0.3,

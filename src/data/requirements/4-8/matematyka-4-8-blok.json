@@ -1,0 +1,452 @@
+[
+  {
+    "id": "mat-4-8-1",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wykonuje proste obliczenia w pamięci i pisemnie oraz ocenia sensowność wyniku.",
+    "tags": [
+      "sprawność-rachunkowa",
+      "weryfikacja-wyniku"
+    ]
+  },
+  {
+    "id": "mat-4-8-2",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń odczytuje i przetwarza dane z tekstu, tabel, diagramów i wykresów.",
+    "tags": [
+      "analiza-danych",
+      "reprezentacje-danych",
+      "wizualizacja-danych"
+    ]
+  },
+  {
+    "id": "mat-4-8-3",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń posługuje się językiem matematycznym do opisu rozwiązań i argumentów.",
+    "tags": [
+      "język-matematyczny",
+      "komunikacja-matematyczna"
+    ]
+  },
+  {
+    "id": "mat-4-8-4",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń dobiera proste modele matematyczne do sytuacji praktycznych.",
+    "tags": [
+      "modelowanie-matematyczne",
+      "reprezentacje"
+    ]
+  },
+  {
+    "id": "mat-4-8-5",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń planuje strategię rozwiązywania zadań i odróżnia dowód od przykładu.",
+    "tags": [
+      "strategie-rozwiązywania",
+      "rozumowanie-i-argumentacja"
+    ]
+  },
+  {
+    "id": "mat-4-8-6",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń odczytuje i zapisuje liczby naturalne i umieszcza je na osi liczbowej.",
+    "tags": [
+      "liczby-naturalne",
+      "oś-liczbowa"
+    ]
+  },
+  {
+    "id": "mat-4-8-7",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń porównuje i zaokrągla liczby naturalne.",
+    "tags": [
+      "liczby-naturalne",
+      "porównywanie-liczb",
+      "zaokrąglanie"
+    ]
+  },
+  {
+    "id": "mat-4-8-8",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń zamienia zapis liczb między systemem rzymskim a dziesiętnym.",
+    "tags": [
+      "system-rzymski",
+      "system-dziesiętny",
+      "konwersje-systemów"
+    ]
+  },
+  {
+    "id": "mat-4-8-9",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje liczby ujemne w kontekstach praktycznych i porównuje liczby całkowite.",
+    "tags": [
+      "liczby-całkowite",
+      "liczby-ujemne",
+      "oś-liczbowa"
+    ]
+  },
+  {
+    "id": "mat-4-8-10",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza wartość bezwzględną i wykonuje rachunki na liczbach całkowitych.",
+    "tags": [
+      "wartość-bezwzględna",
+      "rachunek-pamięciowy",
+      "liczby-całkowite"
+    ]
+  },
+  {
+    "id": "mat-4-8-11",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń dodaje, odejmuje, mnoży i dzieli liczby naturalne; stosuje dzielenie z resztą.",
+    "tags": [
+      "działania-arytmetyczne",
+      "dzielenie-z-resztą"
+    ]
+  },
+  {
+    "id": "mat-4-8-12",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje przemienność, łączność i rozdzielność działań oraz kolejność działań.",
+    "tags": [
+      "własności-działań",
+      "kolejność-działań"
+    ]
+  },
+  {
+    "id": "mat-4-8-13",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje podzielność liczb i rozkłada je na czynniki pierwsze; oblicza NWD i NWW.",
+    "tags": [
+      "podzielność",
+      "czynniki-pierwsze",
+      "nwd",
+      "nww"
+    ]
+  },
+  {
+    "id": "mat-4-8-14",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń interpretuje ułamek zwykły jako część całości i jako iloraz.",
+    "tags": [
+      "ułamki-zwykłe",
+      "interpretacja-ułamka"
+    ]
+  },
+  {
+    "id": "mat-4-8-15",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń skraca i rozszerza ułamki, sprowadza do wspólnego mianownika oraz zamienia liczby mieszane.",
+    "tags": [
+      "ułamki-zwykłe",
+      "operacje-na-ułamkach",
+      "liczby-mieszane"
+    ]
+  },
+  {
+    "id": "mat-4-8-16",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń zamienia między ułamkami zwykłymi a dziesiętnymi i zaznacza je na osi liczbowej.",
+    "tags": [
+      "ułamki",
+      "konwersje-ułamków",
+      "oś-liczbowa"
+    ]
+  },
+  {
+    "id": "mat-4-8-17",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń dodaje, odejmuje, mnoży i dzieli ułamki zwykłe i dziesiętne.",
+    "tags": [
+      "działania-na-ułamkach"
+    ]
+  },
+  {
+    "id": "mat-4-8-18",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza ułamek danej liczby i stosuje kolejność działań.",
+    "tags": [
+      "ułamki",
+      "kolejność-działań"
+    ]
+  },
+  {
+    "id": "mat-4-8-19",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wykonuje obliczenia procentowe w typowych sytuacjach życiowych.",
+    "tags": [
+      "procenty-podstawy",
+      "obliczenia-praktyczne"
+    ]
+  },
+  {
+    "id": "mat-4-8-20",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wykonuje złożone obliczenia procentowe (wielokrotne podwyżki i obniżki; porównania procentowe).",
+    "tags": [
+      "procenty-zaawansowane",
+      "zmiany-procentowe"
+    ]
+  },
+  {
+    "id": "mat-4-8-21",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wykonuje obliczenia zegarowe i kalendarzowe oraz stosuje jednostki miary.",
+    "tags": [
+      "czas-i-kalendarz",
+      "jednostki-miary"
+    ]
+  },
+  {
+    "id": "mat-4-8-22",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje skalę na planach i mapach oraz rozwiązuje zadania prędkość–droga–czas.",
+    "tags": [
+      "skala-mapy",
+      "prędkość-droga-czas"
+    ]
+  },
+  {
+    "id": "mat-4-8-23",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje potęgi o wykładniku naturalnym i notację wykładniczą a·10^k.",
+    "tags": [
+      "potęgi",
+      "notacja-wykładnicza"
+    ]
+  },
+  {
+    "id": "mat-4-8-24",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza i szacuje pierwiastki; przekształca wyrażenia z pierwiastkami.",
+    "tags": [
+      "pierwiastki",
+      "operacje-na-pierwiastkach",
+      "szacowanie"
+    ]
+  },
+  {
+    "id": "mat-4-8-25",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń tworzy i upraszcza wyrażenia algebraiczne oraz oblicza ich wartości.",
+    "tags": [
+      "wyrażenia-algebraiczne",
+      "operacje-na-wyrażeniach",
+      "obliczanie-wartości-wyrażeń"
+    ]
+  },
+  {
+    "id": "mat-4-8-26",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń redukuje wyrazy podobne; mnoży sumy przez jednomian i dwumiany przez dwumiany.",
+    "tags": [
+      "jednomiany",
+      "dwumiany",
+      "mnożenie-wyrażeń"
+    ]
+  },
+  {
+    "id": "mat-4-8-27",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozwiązuje równania liniowe z jedną niewiadomą i stosuje je do zadań tekstowych.",
+    "tags": [
+      "równania-liniowe",
+      "zadania-tekstowe",
+      "sprawdzanie-rozwiązania"
+    ]
+  },
+  {
+    "id": "mat-4-8-28",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń przekształca wzory geometryczne i fizyczne w celu wyznaczania wielkości.",
+    "tags": [
+      "przekształcanie-wzorów",
+      "algebra-w-zastosowaniach"
+    ]
+  },
+  {
+    "id": "mat-4-8-29",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje i konstruuje podstawowe wielokąty; stosuje sumę kątów trójkąta.",
+    "tags": [
+      "wielokąty",
+      "suma-kątów-trójkąta"
+    ]
+  },
+  {
+    "id": "mat-4-8-30",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje punkt, prostą, półprostą i odcinek; proste równoległe i prostopadłe.",
+    "tags": [
+      "geometria-płaska",
+      "proste-i-odcinki"
+    ]
+  },
+  {
+    "id": "mat-4-8-31",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje, rysuje i mierzy kąty; stosuje relacje kątów (przyległe, wierzchołkowe, odpowiadające, naprzemianległe).",
+    "tags": [
+      "kąty",
+      "relacje-kątowe",
+      "pomiar-kątów"
+    ]
+  },
+  {
+    "id": "mat-4-8-32",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wskazuje promień, średnicę i cięciwę; oblicza długość okręgu i pole koła oraz pierścienia.",
+    "tags": [
+      "okrąg-i-koło",
+      "wzory-dla-koła"
+    ]
+  },
+  {
+    "id": "mat-4-8-33",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje twierdzenie Pitagorasa w zadaniach praktycznych.",
+    "tags": [
+      "twierdzenie-pitagorasa",
+      "geometria-obliczeniowa"
+    ]
+  },
+  {
+    "id": "mat-4-8-34",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wyznacza pola figur płaskich oraz brakujące długości w zadaniach złożonych.",
+    "tags": [
+      "pole-figur",
+      "obliczenia-geometryczne"
+    ]
+  },
+  {
+    "id": "mat-4-8-35",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje i stosuje własności dwusiecznej kąta i symetralnej odcinka.",
+    "tags": [
+      "dwusieczna",
+      "symetralna",
+      "geometria-płaska"
+    ]
+  },
+  {
+    "id": "mat-4-8-36",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń odczytuje i rysuje punkty w układzie współrzędnych; wyznacza środek i długość odcinka.",
+    "tags": [
+      "układ-współrzędnych",
+      "długość-odcinka",
+      "środek-odcinka"
+    ]
+  },
+  {
+    "id": "mat-4-8-37",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń analizuje punkty kratowe i zależności w układzie współrzędnych.",
+    "tags": [
+      "geometria-analityczna-podstawy",
+      "punkty-kratowe"
+    ]
+  },
+  {
+    "id": "mat-4-8-38",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje bryły (graniastosłupy, ostrosłupy, walec, stożek, kula) oraz ich siatki.",
+    "tags": [
+      "bryły",
+      "siatki-brył"
+    ]
+  },
+  {
+    "id": "mat-4-8-39",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza pola powierzchni i objętości graniastosłupów i ostrosłupów (proste przypadki).",
+    "tags": [
+      "geometria-przestrzenna",
+      "pole-powierzchni",
+      "objętość",
+      "graniastosłupy",
+      "ostrosłupy"
+    ]
+  },
+  {
+    "id": "mat-4-8-40",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza pole powierzchni i objętość prostopadłościanu; stosuje jednostki objętości i pojemności.",
+    "tags": [
+      "pole-powierzchni",
+      "objętość",
+      "jednostki-objętości"
+    ]
+  },
+  {
+    "id": "mat-4-8-41",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń oblicza średnią arytmetyczną oraz interpretuje dane w tabelach, diagramach i na wykresach.",
+    "tags": [
+      "statystyka-opisowa",
+      "średnia-arytmetyczna",
+      "wizualizacja-danych"
+    ]
+  },
+  {
+    "id": "mat-4-8-42",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń tworzy własne wykresy i diagramy do prezentacji danych.",
+    "tags": [
+      "wizualizacja-danych",
+      "statystyka-opisowa"
+    ]
+  },
+  {
+    "id": "mat-4-8-43",
+    "subject": "matematyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wprowadza elementy kombinatoryki i oblicza proste prawdopodobieństwa w doświadczeniach losowych.",
+    "tags": [
+      "kombinatoryka-podstawy",
+      "prawdopodobieństwo-podstawy"
+    ]
+  }
+]

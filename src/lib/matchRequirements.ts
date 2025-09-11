@@ -1,34 +1,10 @@
-import data from "@/data/requirements/matematyka-kl7.json";
-import { synonyms } from "@/lib/synonyms";
+// src/lib/matchRequirements.ts
 import Fuse from "fuse.js";
-
-export type Requirement = {
-  id: string;
-  subject: string;
-  grade: number;
-  outcome: string;
-  tags: string[];
-};
-
-const ALL: Requirement[] = data as Requirement[];
-
-function normalize(str: string): string {
-  return str
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
-}
-
-function normalizeWord(word: string): string {
-  const w = normalize(word);
-  return synonyms[w] ?? w;
-}
-
-function normalizeText(text: string): string {
-  return text.replace(/-/g, " ").split(/\s+/).map(normalizeWord).join(" ");
-}
+import { Requirement } from "./types";
+import { normalize, normalizeText, normalizeWord, getRange } from "./utils";
 
 export function matchRequirements(
+  requirements: Requirement[],
   subject: string,
   grade: number,
   topic: string,
@@ -36,8 +12,9 @@ export function matchRequirements(
 ) {
   const q = normalizeText(topic + " " + conditions.join(" "));
 
-  const pool = ALL.filter(
-    (r) => normalize(r.subject) === normalize(subject) && r.grade === grade
+  const pool = requirements.filter(
+    (r) =>
+      normalize(r.subject) === normalize(subject) && r.grade === getRange(grade)
   );
 
   const scored = pool.map((r) => {

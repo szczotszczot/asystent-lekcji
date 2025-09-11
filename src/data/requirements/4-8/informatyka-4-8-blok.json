@@ -1,0 +1,246 @@
+[
+  {
+    "id": "inf-4-8-1",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń posługuje się komputerem, urządzeniami cyfrowymi i siecią w pracy i nauce.",
+    "tags": [
+      "komputer",
+      "urządzenia-cyfrowe",
+      "internet"
+    ]
+  },
+  {
+    "id": "inf-4-8-2",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje zasady bezpiecznego korzystania z komputera i internetu oraz dba o higienę pracy.",
+    "tags": [
+      "bhp",
+      "bezpieczeństwo",
+      "higiena-pracy"
+    ]
+  },
+  {
+    "id": "inf-4-8-3",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń przestrzega zasad etycznych i prawnych korzystania z technologii informacyjnych.",
+    "tags": [
+      "etyka",
+      "prawo-autorskie",
+      "bezpieczeństwo"
+    ]
+  },
+  {
+    "id": "inf-4-8-4",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wyszukuje, selekcjonuje i przechowuje informacje z różnych źródeł cyfrowych.",
+    "tags": [
+      "wyszukiwanie-informacji",
+      "źródła-cyfrowe",
+      "selekcja"
+    ]
+  },
+  {
+    "id": "inf-4-8-5",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń ocenia wiarygodność źródeł informacji.",
+    "tags": [
+      "ocena-źródeł",
+      "krytyczne-myślenie"
+    ]
+  },
+  {
+    "id": "inf-4-8-6",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń przedstawia dane w tabelach, wykresach i diagramach.",
+    "tags": [
+      "dane",
+      "tabele",
+      "wykresy",
+      "diagramy"
+    ]
+  },
+  {
+    "id": "inf-4-8-7",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wykorzystuje edytor tekstu do redagowania i formatowania dokumentów.",
+    "tags": [
+      "edytor-tekstu",
+      "formatowanie",
+      "dokumenty"
+    ]
+  },
+  {
+    "id": "inf-4-8-8",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń posługuje się arkuszem kalkulacyjnym do obliczeń i tworzenia wykresów.",
+    "tags": [
+      "arkusz-kalkulacyjny",
+      "wykresy",
+      "obliczenia"
+    ]
+  },
+  {
+    "id": "inf-4-8-9",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń wykorzystuje programy graficzne do tworzenia i edycji rysunków oraz grafiki.",
+    "tags": [
+      "grafika-komputerowa",
+      "edytory-graficzne"
+    ]
+  },
+  {
+    "id": "inf-4-8-10",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń tworzy prezentacje multimedialne i wzbogaca je o elementy multimedialne.",
+    "tags": [
+      "prezentacje",
+      "multimedia"
+    ]
+  },
+  {
+    "id": "inf-4-8-11",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń korzysta z programów edukacyjnych i aplikacji wspierających naukę.",
+    "tags": [
+      "oprogramowanie-edukacyjne",
+      "aplikacje"
+    ]
+  },
+  {
+    "id": "inf-4-8-12",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń korzysta z poczty elektronicznej, komunikatorów i platform edukacyjnych.",
+    "tags": [
+      "poczta-elektroniczna",
+      "komunikatory",
+      "platformy-edukacyjne"
+    ]
+  },
+  {
+    "id": "inf-4-8-13",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń stosuje zasady netykiety i bezpieczeństwa w komunikacji elektronicznej.",
+    "tags": [
+      "netykieta",
+      "bezpieczeństwo",
+      "komunikacja"
+    ]
+  },
+  {
+    "id": "inf-4-8-14",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń współpracuje w zespołach online, korzystając z narzędzi chmurowych.",
+    "tags": [
+      "współpraca-online",
+      "chmura",
+      "narzędzia-cyfrowe"
+    ]
+  },
+  {
+    "id": "inf-4-8-15",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozumie pojęcie algorytmu i potrafi go zapisać w różnych formach (opis słowny, schemat blokowy, pseudokod).",
+    "tags": [
+      "algorytm",
+      "schemat-blokowy",
+      "pseudokod"
+    ]
+  },
+  {
+    "id": "inf-4-8-16",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń projektuje proste programy w wizualnym języku programowania.",
+    "tags": [
+      "programowanie-wizualne",
+      "algorytmy"
+    ]
+  },
+  {
+    "id": "inf-4-8-17",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozwiązuje proste problemy za pomocą programów komputerowych.",
+    "tags": [
+      "programowanie",
+      "rozwiązywanie-problemów"
+    ]
+  },
+  {
+    "id": "inf-4-8-18",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń testuje i poprawia błędy w programach (debugowanie).",
+    "tags": [
+      "debugowanie",
+      "testowanie",
+      "programowanie"
+    ]
+  },
+  {
+    "id": "inf-4-8-19",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń tworzy projekty zespołowe z wykorzystaniem programowania.",
+    "tags": [
+      "projekty-zespołowe",
+      "programowanie"
+    ]
+  },
+  {
+    "id": "inf-4-8-20",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje elementy sprzętu komputerowego i opisuje ich funkcje.",
+    "tags": [
+      "sprzęt-komputerowy",
+      "hardware"
+    ]
+  },
+  {
+    "id": "inf-4-8-21",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń zna podstawowe pojęcia dotyczące systemów operacyjnych i aplikacji.",
+    "tags": [
+      "system-operacyjny",
+      "oprogramowanie"
+    ]
+  },
+  {
+    "id": "inf-4-8-22",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje zastosowania technologii informacyjno-komunikacyjnych w życiu codziennym.",
+    "tags": [
+      "tik",
+      "zastosowania-it"
+    ]
+  },
+  {
+    "id": "inf-4-8-23",
+    "subject": "informatyka",
+    "grade": "4-8",
+    "outcome": "Uczeń rozumie zagrożenia związane z uzależnieniem od technologii cyfrowych.",
+    "tags": [
+      "uzależnienie",
+      "zagrożenia",
+      "świat-cyfrowy"
+    ]
+  }
+]

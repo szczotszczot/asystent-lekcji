@@ -1,0 +1,223 @@
+[
+  {
+    "id": "geo-4-8-1",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń korzysta z mapy: odczytuje treść legendy, stosuje skalę, określa kierunki geograficzne.",
+    "tags": [
+      "mapa",
+      "legenda",
+      "skala",
+      "kierunki-geograficzne"
+    ]
+  },
+  {
+    "id": "geo-4-8-2",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń posługuje się planem i mapą najbliższej okolicy, porównuje je z obserwowanym terenem.",
+    "tags": [
+      "mapa",
+      "plan",
+      "teren"
+    ]
+  },
+  {
+    "id": "geo-4-8-3",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń wskazuje na mapie główne krainy geograficzne Polski i charakteryzuje ich cechy.",
+    "tags": [
+      "mapa",
+      "krainy-geograficzne",
+      "Polska"
+    ]
+  },
+  {
+    "id": "geo-4-8-4",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń wskazuje na globusie i mapie świata: bieguny, równik, południki i równoleżniki oraz półkule.",
+    "tags": [
+      "globus",
+      "równik",
+      "południki",
+      "równoleżniki"
+    ]
+  },
+  {
+    "id": "geo-4-8-5",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń wskazuje kontynenty i oceany na mapie świata oraz posługuje się siatką kartograficzną.",
+    "tags": [
+      "kontynenty",
+      "oceany",
+      "mapa-świata",
+      "siatka-kartograficzna"
+    ]
+  },
+  {
+    "id": "geo-4-8-6",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń określa współrzędne geograficzne punktów na mapie.",
+    "tags": [
+      "współrzędne",
+      "położenie-geograficzne"
+    ]
+  },
+  {
+    "id": "geo-4-8-7",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje składniki krajobrazu Polski i porównuje krajobrazy różnych regionów.",
+    "tags": [
+      "krajobraz",
+      "Polska",
+      "regiony"
+    ]
+  },
+  {
+    "id": "geo-4-8-8",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń rozpoznaje krajobrazy świata i charakteryzuje ich cechy przyrodnicze.",
+    "tags": [
+      "krajobrazy-świata",
+      "środowisko-przyrodnicze"
+    ]
+  },
+  {
+    "id": "geo-4-8-9",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje ruch obrotowy Ziemi i jego następstwa (dzień i noc).",
+    "tags": [
+      "ruch-Ziemi",
+      "dzień-noc"
+    ]
+  },
+  {
+    "id": "geo-4-8-10",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje ruch obiegowy Ziemi i jego następstwa (pory roku).",
+    "tags": [
+      "ruch-Ziemi",
+      "pory-roku"
+    ]
+  },
+  {
+    "id": "geo-4-8-11",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń charakteryzuje warunki klimatyczne Polski i Europy, odczytuje dane klimatyczne i klimatogramy.",
+    "tags": [
+      "klimat",
+      "Polska",
+      "Europa",
+      "klimatogram"
+    ]
+  },
+  {
+    "id": "geo-4-8-12",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń wyjaśnia zróżnicowanie warunków przyrodniczych Europy i ich wpływ na życie ludzi.",
+    "tags": [
+      "Europa",
+      "środowisko-przyrodnicze"
+    ]
+  },
+  {
+    "id": "geo-4-8-13",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń charakteryzuje główne typy gleb i roślinności oraz ich rozmieszczenie.",
+    "tags": [
+      "gleby",
+      "roślinność",
+      "środowisko-przyrodnicze"
+    ]
+  },
+  {
+    "id": "geo-4-8-14",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje rozmieszczenie ludności w Polsce i Europie oraz wyjaśnia przyczyny zróżnicowania.",
+    "tags": [
+      "ludność",
+      "Polska",
+      "Europa",
+      "demografia"
+    ]
+  },
+  {
+    "id": "geo-4-8-15",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń analizuje strukturę demograficzną i przemiany ludnościowe w Polsce i Europie.",
+    "tags": [
+      "struktura-demograficzna",
+      "przemiany-ludnościowe"
+    ]
+  },
+  {
+    "id": "geo-4-8-16",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń opisuje główne gałęzie gospodarki Polski i Europy oraz ich zróżnicowanie regionalne.",
+    "tags": [
+      "gospodarka",
+      "Polska",
+      "Europa",
+      "regiony"
+    ]
+  },
+  {
+    "id": "geo-4-8-17",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń wskazuje walory przyrodnicze i kulturowe regionów Polski oraz znaczenie turystyki.",
+    "tags": [
+      "walory-przyrodnicze",
+      "dziedzictwo-kulturowe",
+      "turystyka"
+    ]
+  },
+  {
+    "id": "geo-4-8-18",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń wskazuje na mapie główne regiony i państwa świata, charakteryzuje ich cechy przyrodnicze i gospodarcze.",
+    "tags": [
+      "mapa-świata",
+      "regiony-świata",
+      "państwa"
+    ]
+  },
+  {
+    "id": "geo-4-8-19",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń analizuje zróżnicowanie przyrodnicze, społeczne i gospodarcze kontynentów.",
+    "tags": [
+      "kontynenty",
+      "środowisko-przyrodnicze",
+      "gospodarka"
+    ]
+  },
+  {
+    "id": "geo-4-8-20",
+    "subject": "geografia",
+    "grade": "4-8",
+    "outcome": "Uczeń rozumie problemy globalne: zmiany klimatu, degradacja środowiska, nierówności społeczne.",
+    "tags": [
+      "problemy-globalne",
+      "zmiany-klimatu",
+      "degradacja-środowiska",
+      "nierówności-społeczne"
+    ]
+  }
+]

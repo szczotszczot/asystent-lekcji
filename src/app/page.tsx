@@ -21,44 +21,8 @@ export default function Home() {
   const [topic, setTopic] = useState("");
   const [minutes, setMinutes] = useState("45");
   const [result, setResult] = useState<Result | null>(null);
-  const [loading, setLoading] = useState(false);
   const [streaming, setStreaming] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
-
-  async function handleGenerate() {
-    setLoading(true);
-    setResult(null);
-
-    try {
-      const res = await fetch("/api/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          subject,
-          grade: parseInt(grade, 10),
-          topic,
-          minutes: parseInt(minutes, 10),
-          conditions: [],
-        }),
-      });
-
-      if (!res.ok) {
-        const text = await res.text();
-        throw new Error(`HTTP ${res.status}: ${text}`);
-      }
-
-      const data: Result = await res.json();
-      setResult(data);
-    } catch (e: unknown) {
-      if (e instanceof Error) {
-        setResult({ ok: false, message: e.message });
-      } else {
-        setResult({ ok: false, message: "API request failed" });
-      }
-    } finally {
-      setLoading(false);
-    }
-  }
 
   async function handleGenerateStream() {
     setStreaming(true);
@@ -128,6 +92,8 @@ export default function Home() {
             >
               <option value="matematyka">Matematyka</option>
               <option value="fizyka">Fizyka</option>
+              <option value="geografia">Geografia</option>
+              <option value="informatyka">Informatyka</option>
             </select>
           </Box>
 
@@ -138,6 +104,9 @@ export default function Home() {
               onChange={(e) => setGrade(e.target.value)}
               style={{ width: "100%", padding: 8, borderRadius: 8 }}
             >
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
               <option value="7">7</option>
               <option value="8">8</option>
             </select>
@@ -162,15 +131,6 @@ export default function Home() {
           </Box>
 
           <Stack direction={{ base: "column", md: "row" }} gap={3}>
-            <Button
-              loading={loading}
-              loadingText="Generuję..."
-              onClick={handleGenerate}
-              colorPalette="blue"
-            >
-              Generuj (bez streamu)
-            </Button>
-
             <Button
               loading={streaming}
               loadingText="Strumieniuję..."
