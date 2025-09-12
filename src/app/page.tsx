@@ -10,6 +10,10 @@ import {
   Text,
   Heading,
   chakra,
+  FieldRoot,
+  Field,
+  NativeSelect,
+  For,
 } from "@chakra-ui/react";
 import ReactMarkdown from "react-markdown";
 
@@ -85,7 +89,7 @@ export default function Home() {
         <Stack gap={4}>
           <Box>
             <Text mb={2}>Przedmiot</Text>
-            <select
+            {/* <select
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               style={{ width: "100%", padding: 8, borderRadius: 8 }}
@@ -94,22 +98,43 @@ export default function Home() {
               <option value="fizyka">Fizyka</option>
               <option value="geografia">Geografia</option>
               <option value="informatyka">Informatyka</option>
-            </select>
+            </select> */}
+            <NativeSelect.Root size={"sm"} width={"240px"}>
+              <NativeSelect.Field
+                name="subject"
+                onChange={(e) => setSubject(e.target.value)}
+              >
+                <option value="matematyka">Matematyka</option>
+                <option value="fizyka">Fizyka</option>
+                <option value="geografia">Geografia</option>
+                <option value="informatyka">Informatyka</option>
+              </NativeSelect.Field>
+              <NativeSelect.Indicator />
+            </NativeSelect.Root>
           </Box>
 
           <Box>
             <Text mb={2}>Klasa</Text>
-            <select
-              value={grade}
-              onChange={(e) => setGrade(e.target.value)}
-              style={{ width: "100%", padding: 8, borderRadius: 8 }}
-            >
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-            </select>
+            <NativeSelect.Root size={"sm"} width={"240px"}>
+              <NativeSelect.Field
+                name="subject"
+                onChange={(e) => setGrade(e.target.value)}
+              >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">1 liceum</option>
+                <option value="10">2 liceum</option>
+                <option value="11">3 liceum</option>
+                <option value="12">4 liceum</option>
+              </NativeSelect.Field>
+              <NativeSelect.Indicator />
+            </NativeSelect.Root>
           </Box>
 
           <Box>

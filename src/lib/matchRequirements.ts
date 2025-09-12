@@ -10,6 +10,8 @@ export function matchRequirements(
   topic: string,
   conditions: string[]
 ) {
+  console.log(conditions);
+  console.log(requirements);
   const q = normalizeText(topic + " " + conditions.join(" "));
 
   const pool = requirements.filter(

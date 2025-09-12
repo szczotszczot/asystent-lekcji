@@ -1,0 +1,267 @@
+[
+  {
+    "id": "inf-9-12-1",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje zasady bezpiecznej i higienicznej pracy z komputerem oraz w sieci.",
+    "tags": [
+      "bhp",
+      "bezpieczeństwo",
+      "internet"
+    ]
+  },
+  {
+    "id": "inf-9-12-2",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń zna i przestrzega zasady etyczne i prawne korzystania z technologii informacyjnych.",
+    "tags": [
+      "etyka",
+      "prawo",
+      "prawo-autorskie"
+    ]
+  },
+  {
+    "id": "inf-9-12-3",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozpoznaje zagrożenia w sieci i potrafi im przeciwdziałać.",
+    "tags": [
+      "zagrożenia",
+      "internet",
+      "ochrona-danych"
+    ]
+  },
+  {
+    "id": "inf-9-12-4",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń wyszukuje, selekcjonuje i ocenia informacje z różnych źródeł cyfrowych.",
+    "tags": [
+      "informacja",
+      "wyszukiwanie",
+      "ocena-źródeł"
+    ]
+  },
+  {
+    "id": "inf-9-12-5",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń przetwarza dane, przedstawia je w tabelach, wykresach i bazach danych.",
+    "tags": [
+      "dane",
+      "tabele",
+      "wykresy",
+      "bazy-danych"
+    ]
+  },
+  {
+    "id": "inf-9-12-6",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje arkusz kalkulacyjny do rozwiązywania problemów, analizy danych i wizualizacji wyników.",
+    "tags": [
+      "arkusz-kalkulacyjny",
+      "analiza-danych",
+      "wizualizacja"
+    ]
+  },
+  {
+    "id": "inf-9-12-7",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń posługuje się edytorem tekstu, arkuszem kalkulacyjnym, programami graficznymi i prezentacyjnymi.",
+    "tags": [
+      "edytor-tekstu",
+      "arkusz-kalkulacyjny",
+      "grafika",
+      "prezentacje"
+    ]
+  },
+  {
+    "id": "inf-9-12-8",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń korzysta z aplikacji chmurowych i platform edukacyjnych do pracy indywidualnej i zespołowej.",
+    "tags": [
+      "aplikacje-chmurowe",
+      "platformy-edukacyjne",
+      "współpraca"
+    ]
+  },
+  {
+    "id": "inf-9-12-9",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń instaluje i konfiguruje wybrane aplikacje i systemy operacyjne.",
+    "tags": [
+      "instalacja",
+      "konfiguracja",
+      "systemy-operacyjne"
+    ]
+  },
+  {
+    "id": "inf-9-12-10",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje zasady działania sieci komputerowych i internetu.",
+    "tags": [
+      "sieci",
+      "internet",
+      "działanie-sieci"
+    ]
+  },
+  {
+    "id": "inf-9-12-11",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń korzysta z poczty elektronicznej, komunikatorów i usług sieciowych zgodnie z zasadami netykiety.",
+    "tags": [
+      "poczta",
+      "komunikatory",
+      "netykieta"
+    ]
+  },
+  {
+    "id": "inf-9-12-12",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje metody ochrony danych w sieci (szyfrowanie, hasła, kopie zapasowe).",
+    "tags": [
+      "ochrona-danych",
+      "szyfrowanie",
+      "kopie-zapasowe"
+    ]
+  },
+  {
+    "id": "inf-9-12-13",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozumie pojęcie algorytmu i zapisuje go w różnych formach (opis słowny, schemat blokowy, pseudokod).",
+    "tags": [
+      "algorytmy",
+      "schemat-blokowy",
+      "pseudokod"
+    ]
+  },
+  {
+    "id": "inf-9-12-14",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń programuje w wybranym języku programowania strukturalnego i obiektowego.",
+    "tags": [
+      "programowanie",
+      "język-programowania",
+      "obiektowe"
+    ]
+  },
+  {
+    "id": "inf-9-12-15",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozwiązuje problemy algorytmiczne, stosuje instrukcje warunkowe, pętle i funkcje.",
+    "tags": [
+      "algorytmy",
+      "instrukcje-warunkowe",
+      "pętle",
+      "funkcje"
+    ]
+  },
+  {
+    "id": "inf-9-12-16",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń tworzy i wykorzystuje tablice, listy i inne struktury danych.",
+    "tags": [
+      "struktury-danych",
+      "tablice",
+      "listy"
+    ]
+  },
+  {
+    "id": "inf-9-12-17",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń testuje i poprawia błędy w programach (debugowanie).",
+    "tags": [
+      "debugowanie",
+      "testowanie",
+      "programowanie"
+    ]
+  },
+  {
+    "id": "inf-9-12-18",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń realizuje projekty zespołowe z wykorzystaniem programowania.",
+    "tags": [
+      "projekty-zespołowe",
+      "programowanie"
+    ]
+  },
+  {
+    "id": "inf-9-12-19",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń projektuje proste bazy danych i zapytania w SQL.",
+    "tags": [
+      "bazy-danych",
+      "SQL",
+      "projektowanie"
+    ]
+  },
+  {
+    "id": "inf-9-12-20",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń korzysta z systemów zarządzania bazami danych do przetwarzania informacji.",
+    "tags": [
+      "bazy-danych",
+      "systemy-zarządzania"
+    ]
+  },
+  {
+    "id": "inf-9-12-21",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje budowę i działanie komputera oraz urządzeń peryferyjnych.",
+    "tags": [
+      "komputer",
+      "sprzęt",
+      "urządzenia-peryferyjne"
+    ]
+  },
+  {
+    "id": "inf-9-12-22",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń charakteryzuje systemy operacyjne i oprogramowanie użytkowe.",
+    "tags": [
+      "systemy-operacyjne",
+      "oprogramowanie"
+    ]
+  },
+  {
+    "id": "inf-9-12-23",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń analizuje zastosowania technologii informacyjno-komunikacyjnych w gospodarce i nauce.",
+    "tags": [
+      "TIK",
+      "zastosowania",
+      "gospodarka",
+      "nauka"
+    ]
+  },
+  {
+    "id": "inf-9-12-24",
+    "subject": "informatyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozumie zagrożenia związane z uzależnieniem od technologii cyfrowych i przeciwdziała im.",
+    "tags": [
+      "uzależnienie",
+      "zagrożenia",
+      "świat-cyfrowy"
+    ]
+  }
+]

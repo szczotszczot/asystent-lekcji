@@ -1,0 +1,417 @@
+[
+  {
+    "id": "fiz-9-12-1",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń posługuje się układem SI i przelicza wielokrotności i podwielokrotności jednostek.",
+    "tags": [
+      "jednostki",
+      "układ-SI",
+      "przeliczanie"
+    ]
+  },
+  {
+    "id": "fiz-9-12-2",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozróżnia wielkości skalarne i wektorowe, posługuje się wektorami do opisu ruchu i sił.",
+    "tags": [
+      "wektory",
+      "skalary",
+      "opis-ruchu"
+    ]
+  },
+  {
+    "id": "fiz-9-12-3",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń planuje i przeprowadza doświadczenia fizyczne, analizuje dane i formułuje wnioski.",
+    "tags": [
+      "doświadczenia",
+      "analiza-danych",
+      "wnioski"
+    ]
+  },
+  {
+    "id": "fiz-9-12-4",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń posługuje się wykresami zależności fizycznych i interpretuje je.",
+    "tags": [
+      "wykresy",
+      "analiza-danych",
+      "zależności-fizyczne"
+    ]
+  },
+  {
+    "id": "fiz-9-12-5",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje ruch prostoliniowy jednostajny i jednostajnie przyspieszony; korzysta ze wzorów na drogę i prędkość.",
+    "tags": [
+      "ruch-prostoliniowy",
+      "jednostajny",
+      "przyspieszony"
+    ]
+  },
+  {
+    "id": "fiz-9-12-6",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń przedstawia ruch za pomocą wykresów s(t) i v(t).",
+    "tags": [
+      "ruch",
+      "wykresy"
+    ]
+  },
+  {
+    "id": "fiz-9-12-7",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje ruch po okręgu, prędkość kątową i liniową, okres i częstotliwość.",
+    "tags": [
+      "ruch-po-okręgu",
+      "prędkość-kątowa",
+      "częstotliwość"
+    ]
+  },
+  {
+    "id": "fiz-9-12-8",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje zasady dynamiki Newtona do opisu ruchu ciał.",
+    "tags": [
+      "zasady-newtona",
+      "dynamika"
+    ]
+  },
+  {
+    "id": "fiz-9-12-9",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń analizuje ruch pod wpływem sił, w tym tarcia i siły dośrodkowej.",
+    "tags": [
+      "siły",
+      "tarcie",
+      "siła-dośrodkowa"
+    ]
+  },
+  {
+    "id": "fiz-9-12-10",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza pracę i moc siły; podaje ich jednostki.",
+    "tags": [
+      "praca",
+      "moc",
+      "jednostki"
+    ]
+  },
+  {
+    "id": "fiz-9-12-11",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje energię kinetyczną i potencjalną grawitacji; stosuje zasadę zachowania energii.",
+    "tags": [
+      "energia-kinetyczna",
+      "energia-potencjalna",
+      "zasada-zachowania-energii"
+    ]
+  },
+  {
+    "id": "fiz-9-12-12",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza sprawność urządzeń mechanicznych.",
+    "tags": [
+      "sprawność",
+      "energia",
+      "urządzenia"
+    ]
+  },
+  {
+    "id": "fiz-9-12-13",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje prawo powszechnego ciążenia do obliczeń siły grawitacji.",
+    "tags": [
+      "prawo-ciążenia",
+      "siła-grawitacji"
+    ]
+  },
+  {
+    "id": "fiz-9-12-14",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje ruch planet i satelitów zgodnie z prawami Keplera.",
+    "tags": [
+      "prawa-keplera",
+      "ruch-planet",
+      "satelity"
+    ]
+  },
+  {
+    "id": "fiz-9-12-15",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń objaśnia zjawiska astronomiczne związane z ruchem Ziemi i Księżyca.",
+    "tags": [
+      "astronomia",
+      "ruch-Ziemi",
+      "Księżyc"
+    ]
+  },
+  {
+    "id": "fiz-9-12-16",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje pojęcie energii wewnętrznej i jej zmiany.",
+    "tags": [
+      "energia-wewnętrzna",
+      "termodynamika"
+    ]
+  },
+  {
+    "id": "fiz-9-12-17",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje I zasadę termodynamiki w prostych przykładach.",
+    "tags": [
+      "pierwsza-zasada-termodynamiki"
+    ]
+  },
+  {
+    "id": "fiz-9-12-18",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje przemiany gazowe: izotermiczną, izobaryczną, izochoryczną i adiabatyczną.",
+    "tags": [
+      "przemiany-gazowe",
+      "izotermiczna",
+      "izobaryczna",
+      "izochoryczna",
+      "adiabatyczna"
+    ]
+  },
+  {
+    "id": "fiz-9-12-19",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń wyjaśnia działanie silników cieplnych i lodówek oraz II zasadę termodynamiki.",
+    "tags": [
+      "silniki-cieplne",
+      "lodówki",
+      "druga-zasada-termodynamiki"
+    ]
+  },
+  {
+    "id": "fiz-9-12-20",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje ruch drgający prosty i wielkości go charakteryzujące.",
+    "tags": [
+      "ruch-drgający",
+      "amplituda",
+      "okres",
+      "częstotliwość"
+    ]
+  },
+  {
+    "id": "fiz-9-12-21",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje fale mechaniczne i ich właściwości (długość, prędkość, częstotliwość).",
+    "tags": [
+      "fale-mechaniczne",
+      "długość-fali",
+      "prędkość-fali",
+      "częstotliwość"
+    ]
+  },
+  {
+    "id": "fiz-9-12-22",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń omawia zjawisko rezonansu mechanicznego.",
+    "tags": [
+      "rezonans",
+      "fale-mechaniczne"
+    ]
+  },
+  {
+    "id": "fiz-9-12-23",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje fale dźwiękowe i ich zastosowania; rozróżnia infradźwięki i ultradźwięki.",
+    "tags": [
+      "fale-dźwiękowe",
+      "infradźwięki",
+      "ultradźwięki"
+    ]
+  },
+  {
+    "id": "fiz-9-12-24",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje pole elektrostatyczne, natężenie pola i prawo Coulomba.",
+    "tags": [
+      "pole-elektrostatyczne",
+      "prawo-coulomba"
+    ]
+  },
+  {
+    "id": "fiz-9-12-25",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń definiuje potencjał elektryczny i napięcie; oblicza pracę pola elektrostatycznego.",
+    "tags": [
+      "potencjał",
+      "napięcie",
+      "pole-elektrostatyczne"
+    ]
+  },
+  {
+    "id": "fiz-9-12-26",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza opór zastępczy w obwodach szeregowych i równoległych.",
+    "tags": [
+      "opór",
+      "obwody-elektryczne"
+    ]
+  },
+  {
+    "id": "fiz-9-12-27",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje prawo Ohma i prawo Joule’a-Lenza.",
+    "tags": [
+      "prawo-ohma",
+      "prawo-joule-lenza"
+    ]
+  },
+  {
+    "id": "fiz-9-12-28",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje pole magnetyczne wytwarzane przez przewodnik z prądem; reguła prawej dłoni.",
+    "tags": [
+      "pole-magnetyczne",
+      "reguła-prawej-dłoni"
+    ]
+  },
+  {
+    "id": "fiz-9-12-29",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje zjawisko indukcji elektromagnetycznej i prawo Faradaya.",
+    "tags": [
+      "indukcja-elektromagnetyczna",
+      "prawo-faradaya"
+    ]
+  },
+  {
+    "id": "fiz-9-12-30",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń objaśnia działanie transformatora i prądu przemiennego.",
+    "tags": [
+      "transformator",
+      "prąd-przemienny"
+    ]
+  },
+  {
+    "id": "fiz-9-12-31",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje fale elektromagnetyczne i ich widmo.",
+    "tags": [
+      "fale-em",
+      "widmo-elektromagnetyczne"
+    ]
+  },
+  {
+    "id": "fiz-9-12-32",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń wyjaśnia odbicie i załamanie światła, stosuje prawa Snelliusa.",
+    "tags": [
+      "odbicie",
+      "załamanie",
+      "prawo-snelliusa"
+    ]
+  },
+  {
+    "id": "fiz-9-12-33",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje zjawiska interferencji i dyfrakcji światła.",
+    "tags": [
+      "interferencja",
+      "dyfrakcja",
+      "światło"
+    ]
+  },
+  {
+    "id": "fiz-9-12-34",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń omawia budowę i działanie soczewek oraz zwierciadeł.",
+    "tags": [
+      "soczewki",
+      "zwierciadła",
+      "optyka"
+    ]
+  },
+  {
+    "id": "fiz-9-12-35",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje podstawowe postulaty szczególnej teorii względności.",
+    "tags": [
+      "teoria-względności",
+      "postulaty"
+    ]
+  },
+  {
+    "id": "fiz-9-12-36",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń objaśnia zjawisko fotoelektryczne i kwanty światła.",
+    "tags": [
+      "zjawisko-fotoelektryczne",
+      "kwanty"
+    ]
+  },
+  {
+    "id": "fiz-9-12-37",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje budowę atomu i model Bohra.",
+    "tags": [
+      "atom",
+      "model-bohra"
+    ]
+  },
+  {
+    "id": "fiz-9-12-38",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje promieniotwórczość naturalną i sztuczną oraz jej zastosowania.",
+    "tags": [
+      "promieniotwórczość",
+      "izotopy",
+      "zastosowania"
+    ]
+  },
+  {
+    "id": "fiz-9-12-39",
+    "subject": "fizyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje reakcje jądrowe i zasadę działania reaktora jądrowego.",
+    "tags": [
+      "reakcje-jądrowe",
+      "reaktor-jądrowy"
+    ]
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "id": "geo-9-12-1",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń wykorzystuje mapy, plany, fotografie lotnicze i satelitarne, dane statystyczne i GIS do analizy zjawisk geograficznych.",
+    "tags": [
+      "mapy",
+      "fotografie-satelitarne",
+      "dane-statystyczne",
+      "GIS"
+    ]
+  },
+  {
+    "id": "geo-9-12-2",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń interpretuje treść map, posługuje się współrzędnymi geograficznymi i różnymi skalami map.",
+    "tags": [
+      "mapy",
+      "współrzędne",
+      "skala"
+    ]
+  },
+  {
+    "id": "geo-9-12-3",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń krytycznie ocenia źródła informacji geograficznej i formułuje wnioski.",
+    "tags": [
+      "źródła-informacji",
+      "ocena",
+      "wnioski"
+    ]
+  },
+  {
+    "id": "geo-9-12-4",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń objaśnia ruch obrotowy i obiegowy Ziemi oraz ich skutki (dzień i noc, pory roku, strefy oświetlenia).",
+    "tags": [
+      "ruch-Ziemi",
+      "dzień-noc",
+      "pory-roku",
+      "oświetlenie"
+    ]
+  },
+  {
+    "id": "geo-9-12-5",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje zjawiska związane z ruchem Księżyca wokół Ziemi.",
+    "tags": [
+      "Księżyc",
+      "fazy",
+      "zaćmienia"
+    ]
+  },
+  {
+    "id": "geo-9-12-6",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń charakteryzuje czynniki klimatotwórcze i wyjaśnia zróżnicowanie klimatyczne świata.",
+    "tags": [
+      "czynniki-klimatyczne",
+      "klimat",
+      "świat"
+    ]
+  },
+  {
+    "id": "geo-9-12-7",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń analizuje dane meteorologiczne i klimatogramy.",
+    "tags": [
+      "dane-meteorologiczne",
+      "klimatogramy"
+    ]
+  },
+  {
+    "id": "geo-9-12-8",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń wyjaśnia zjawiska pogodowe i ich przebieg (np. fronty, cyklony, antycyklony).",
+    "tags": [
+      "pogoda",
+      "fronty",
+      "cyklony",
+      "antycyklony"
+    ]
+  },
+  {
+    "id": "geo-9-12-9",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje obieg wody w przyrodzie i jego znaczenie.",
+    "tags": [
+      "obieg-wody",
+      "hydrosfera"
+    ]
+  },
+  {
+    "id": "geo-9-12-10",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń charakteryzuje oceany i morza, ich prądy i znaczenie gospodarcze.",
+    "tags": [
+      "oceany",
+      "morza",
+      "prądy-morskie"
+    ]
+  },
+  {
+    "id": "geo-9-12-11",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje rzeźbotwórczą działalność rzek, lodowców i wiatru.",
+    "tags": [
+      "rzeki",
+      "lodowce",
+      "wiatr",
+      "rzeźbotwórcza-działalność"
+    ]
+  },
+  {
+    "id": "geo-9-12-12",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń wyjaśnia procesy wewnętrzne Ziemi: wulkanizm, trzęsienia ziemi, ruchy górotwórcze.",
+    "tags": [
+      "wulkanizm",
+      "trzęsienia-ziemi",
+      "ruchy-górotwórcze"
+    ]
+  },
+  {
+    "id": "geo-9-12-13",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń charakteryzuje środowisko przyrodnicze Polski i jego zróżnicowanie regionalne.",
+    "tags": [
+      "Polska",
+      "środowisko-przyrodnicze",
+      "regiony"
+    ]
+  },
+  {
+    "id": "geo-9-12-14",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń analizuje procesy demograficzne i gospodarcze w Polsce i Europie.",
+    "tags": [
+      "demografia",
+      "gospodarka",
+      "Polska",
+      "Europa"
+    ]
+  },
+  {
+    "id": "geo-9-12-15",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń wyjaśnia znaczenie integracji europejskiej i współpracy regionalnej.",
+    "tags": [
+      "integracja",
+      "Europa",
+      "współpraca"
+    ]
+  },
+  {
+    "id": "geo-9-12-16",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje zróżnicowanie społeczne i gospodarcze świata oraz przyczyny nierówności rozwoju.",
+    "tags": [
+      "świat",
+      "gospodarka",
+      "nierówności"
+    ]
+  },
+  {
+    "id": "geo-9-12-17",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń charakteryzuje przemiany demograficzne i migracje w skali globalnej.",
+    "tags": [
+      "demografia",
+      "migracje",
+      "świat"
+    ]
+  },
+  {
+    "id": "geo-9-12-18",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń analizuje rozmieszczenie i strukturę gospodarki światowej (rolnictwo, przemysł, usługi).",
+    "tags": [
+      "rolnictwo",
+      "przemysł",
+      "usługi",
+      "gospodarka-światowa"
+    ]
+  },
+  {
+    "id": "geo-9-12-19",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje główne regiony geograficzne świata i ich cechy przyrodnicze oraz społeczno-gospodarcze.",
+    "tags": [
+      "regiony-świata",
+      "środowisko-przyrodnicze",
+      "gospodarka"
+    ]
+  },
+  {
+    "id": "geo-9-12-20",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń wyjaśnia pojęcie zrównoważonego rozwoju i podaje przykłady działań lokalnych i globalnych.",
+    "tags": [
+      "zrównoważony-rozwój",
+      "działania-lokalne",
+      "działania-globalne"
+    ]
+  },
+  {
+    "id": "geo-9-12-21",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń charakteryzuje główne problemy globalne: zmiany klimatu, degradację środowiska, głód, migracje.",
+    "tags": [
+      "problemy-globalne",
+      "zmiany-klimatu",
+      "degradacja-środowiska",
+      "głód",
+      "migracje"
+    ]
+  },
+  {
+    "id": "geo-9-12-22",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń analizuje powiązania między działalnością człowieka a środowiskiem przyrodniczym.",
+    "tags": [
+      "człowiek-środowisko",
+      "zależności",
+      "wpływ"
+    ]
+  },
+  {
+    "id": "geo-9-12-23",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń wykorzystuje narzędzia GIS i technologie geoinformacyjne do analizy i prezentacji danych.",
+    "tags": [
+      "GIS",
+      "geoinformacja",
+      "analiza-przestrzenna"
+    ]
+  },
+  {
+    "id": "geo-9-12-24",
+    "subject": "geografia",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje technologie informatyczne w opracowywaniu danych geograficznych.",
+    "tags": [
+      "technologie-informatyczne",
+      "opracowanie-danych"
+    ]
+  }
+]

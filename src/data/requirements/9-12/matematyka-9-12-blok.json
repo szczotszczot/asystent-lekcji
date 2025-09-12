@@ -1,0 +1,367 @@
+[
+  {
+    "id": "mat-9-12-1",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń wykonuje działania w zbiorze liczb rzeczywistych: dodawanie, odejmowanie, mnożenie, dzielenie, potęgowanie, pierwiastkowanie, logarytmowanie.",
+    "tags": [
+      "liczby-rzeczywiste",
+      "działania",
+      "logarytmy",
+      "pierwiastki"
+    ]
+  },
+  {
+    "id": "mat-9-12-2",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje prawa działań na potęgach, pierwiastkach i logarytmach.",
+    "tags": [
+      "potęgi",
+      "pierwiastki",
+      "logarytmy",
+      "własności-działań"
+    ]
+  },
+  {
+    "id": "mat-9-12-3",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń przedstawia liczby w postaci wykładniczej i stosuje zapis naukowy.",
+    "tags": [
+      "notacja-wykładnicza",
+      "liczby-rzeczywiste"
+    ]
+  },
+  {
+    "id": "mat-9-12-4",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozróżnia i zapisuje liczby wymierne i niewymierne; umieszcza je na osi liczbowej.",
+    "tags": [
+      "liczby-wymierne",
+      "liczby-niewymierne",
+      "oś-liczbowa"
+    ]
+  },
+  {
+    "id": "mat-9-12-5",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozwiązuje proste zadania dowodowe związane z podzielnością i cechami podzielności liczb.",
+    "tags": [
+      "podzielność",
+      "dowody",
+      "liczby-całkowite"
+    ]
+  },
+  {
+    "id": "mat-9-12-6",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje wartości bezwzględne w zadaniach algebraicznych i geometrycznych.",
+    "tags": [
+      "wartość-bezwzględna",
+      "algebra",
+      "geometria"
+    ]
+  },
+  {
+    "id": "mat-9-12-7",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń przekształca i upraszcza wyrażenia algebraiczne, stosuje wzory skróconego mnożenia.",
+    "tags": [
+      "wyrażenia-algebraiczne",
+      "wzory-skróconego-mnożenia"
+    ]
+  },
+  {
+    "id": "mat-9-12-8",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń operuje wielomianami: dodaje, mnoży, dzieli przez jednomiany i dwumiany, rozkłada na czynniki.",
+    "tags": [
+      "wielomiany",
+      "działania-na-wyrażeniach"
+    ]
+  },
+  {
+    "id": "mat-9-12-9",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozwiązuje równania liniowe i kwadratowe oraz nierówności liniowe i kwadratowe, w tym z parametrami.",
+    "tags": [
+      "równania",
+      "nierówności",
+      "parametry"
+    ]
+  },
+  {
+    "id": "mat-9-12-10",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozwiązuje układy równań liniowych z dwiema niewiadomymi; interpretuje rozwiązania geometrycznie.",
+    "tags": [
+      "układy-równań",
+      "równania-liniowe",
+      "geometria-analityczna"
+    ]
+  },
+  {
+    "id": "mat-9-12-11",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozwiązuje równania wymierne, niewymierne i trygonometryczne proste.",
+    "tags": [
+      "równania",
+      "równania-wymierne",
+      "równania-niewymierne",
+      "równania-trygonometryczne"
+    ]
+  },
+  {
+    "id": "mat-9-12-12",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń bada i szkicuje wykresy funkcji liniowej, kwadratowej, wykładniczej, logarytmicznej, trygonometrycznych oraz funkcji odwrotnej.",
+    "tags": [
+      "funkcje",
+      "wykresy",
+      "funkcja-kwadratowa",
+      "funkcja-wykładnicza",
+      "funkcja-logarytmiczna",
+      "funkcje-trygonometryczne"
+    ]
+  },
+  {
+    "id": "mat-9-12-13",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje przesunięcia i przekształcenia wykresów funkcji.",
+    "tags": [
+      "wykresy",
+      "funkcje",
+      "przekształcenia-wykresów"
+    ]
+  },
+  {
+    "id": "mat-9-12-14",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń wyznacza miejsca zerowe, monotoniczność i wartości największe/najmniejsze funkcji.",
+    "tags": [
+      "funkcje",
+      "miejsca-zerowe",
+      "monotoniczność",
+      "ekstrema"
+    ]
+  },
+  {
+    "id": "mat-9-12-15",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje pojęcie funkcji odwrotnej i złożonej.",
+    "tags": [
+      "funkcje",
+      "funkcja-odwrotna",
+      "funkcja-złożona"
+    ]
+  },
+  {
+    "id": "mat-9-12-16",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń opisuje i bada ciągi arytmetyczne i geometryczne, oblicza ich wyrazy i sumy.",
+    "tags": [
+      "ciągi",
+      "arytmetyczne",
+      "geometryczne"
+    ]
+  },
+  {
+    "id": "mat-9-12-17",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje ciągi w zadaniach praktycznych, w tym procent składany i kredyty.",
+    "tags": [
+      "ciągi",
+      "zastosowania",
+      "procent-składany"
+    ]
+  },
+  {
+    "id": "mat-9-12-18",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń definiuje funkcje trygonometryczne kąta ostrego i rozwartokątnego.",
+    "tags": [
+      "trygonometria",
+      "funkcje-trygonometryczne"
+    ]
+  },
+  {
+    "id": "mat-9-12-19",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje tożsamości trygonometryczne i przekształca wyrażenia trygonometryczne.",
+    "tags": [
+      "trygonometria",
+      "tożsamości"
+    ]
+  },
+  {
+    "id": "mat-9-12-20",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń rozwiązuje równania i nierówności trygonometryczne w podstawowym zakresie.",
+    "tags": [
+      "równania-trygonometryczne",
+      "nierówności-trygonometryczne"
+    ]
+  },
+  {
+    "id": "mat-9-12-21",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza długości i kąty w trójkątach, stosując twierdzenie sinusów i cosinusów.",
+    "tags": [
+      "twierdzenie-sinusów",
+      "twierdzenie-cosinusów",
+      "trygonometria"
+    ]
+  },
+  {
+    "id": "mat-9-12-22",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje twierdzenie Pitagorasa i twierdzenie Talesa w zadaniach.",
+    "tags": [
+      "twierdzenie-pitagorasa",
+      "twierdzenie-talesa",
+      "geometria"
+    ]
+  },
+  {
+    "id": "mat-9-12-23",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza pola i obwody figur płaskich oraz objętości i pola powierzchni brył.",
+    "tags": [
+      "pole-figur",
+      "objętość",
+      "pole-powierzchni",
+      "bryły"
+    ]
+  },
+  {
+    "id": "mat-9-12-24",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje podobieństwo i przystawanie figur w zadaniach.",
+    "tags": [
+      "podobieństwo",
+      "przystawanie",
+      "figury"
+    ]
+  },
+  {
+    "id": "mat-9-12-25",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń posługuje się układem współrzędnych do rozwiązywania zadań geometrycznych.",
+    "tags": [
+      "geometria-analityczna",
+      "układ-współrzędnych"
+    ]
+  },
+  {
+    "id": "mat-9-12-26",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń bada własności okręgu i proste związane z okręgiem (styczne, cięciwy, kąty).",
+    "tags": [
+      "okrąg",
+      "styczne",
+      "kąty",
+      "cięciwy"
+    ]
+  },
+  {
+    "id": "mat-9-12-27",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza granice ciągów i funkcji w prostych przypadkach.",
+    "tags": [
+      "granice",
+      "ciągi",
+      "funkcje"
+    ]
+  },
+  {
+    "id": "mat-9-12-28",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza pochodne funkcji elementarnych i stosuje je do badania przebiegu zmienności.",
+    "tags": [
+      "pochodne",
+      "funkcje",
+      "monotoniczność",
+      "ekstrema"
+    ]
+  },
+  {
+    "id": "mat-9-12-29",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza całki oznaczone i stosuje je do obliczania pól figur płaskich.",
+    "tags": [
+      "całki",
+      "pole-figur",
+      "rachunek-całkowy"
+    ]
+  },
+  {
+    "id": "mat-9-12-30",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń stosuje podstawowe zasady kombinatoryki do obliczeń liczby zdarzeń.",
+    "tags": [
+      "kombinatoryka",
+      "liczby-zdarzeń"
+    ]
+  },
+  {
+    "id": "mat-9-12-31",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza prawdopodobieństwo zdarzeń losowych w prostych i złożonych doświadczeniach.",
+    "tags": [
+      "prawdopodobieństwo",
+      "zdarzenia-losowe"
+    ]
+  },
+  {
+    "id": "mat-9-12-32",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń interpretuje wyniki doświadczeń losowych i symulacji komputerowych.",
+    "tags": [
+      "prawdopodobieństwo",
+      "symulacje"
+    ]
+  },
+  {
+    "id": "mat-9-12-33",
+    "subject": "matematyka",
+    "grade": "9-12",
+    "outcome": "Uczeń oblicza średnią, medianę, dominatę i odchylenie standardowe.",
+    "tags": [
+      "statystyka",
+      "średnia",
+      "mediana",
+      "dominanta",
+      "odchylenie-standardowe"
+    ]
+  }
+]
