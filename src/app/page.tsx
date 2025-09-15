@@ -10,10 +10,7 @@ import {
   Text,
   Heading,
   chakra,
-  FieldRoot,
-  Field,
-  NativeSelect,
-  For,
+  NativeSelect
 } from "@chakra-ui/react";
 import ReactMarkdown from "react-markdown";
 
